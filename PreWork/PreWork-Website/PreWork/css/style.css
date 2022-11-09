@@ -1,0 +1,60 @@
+<style type="text/css">
+	body{
+		background-color: #D8BFF5 ; padding: inherit; margin: initial;
+		}
+	h1, h3{
+		text-decoration: underline; color: forestgreen;
+		}
+	p{
+		font-size: 20px; font-style: italic;
+		}
+	ul{
+		font-style: oblique;
+		}
+	a{
+		color: purple ;
+		}
+	#text{
+		color: white;
+		}
+	.emphasis{
+		text-decoration: underline;
+		}
+	#div1{
+		background-color: darkgrey;
+		}
+	#div2{
+		background-color: black;
+		}
+	#div3{
+		background-color: silver;
+		}
+	#div4{
+		background-color: lightgray;
+		}
+	#div1, #div2, #div3, #div4{
+		border: transparent;
+		}
+	form{
+		padding: 15px;
+		background-color: yellow;
+		font-style: italic;
+		border-style: groove;
+		font-weight: 900px;
+		}
+	input[type=button]{
+		color: darkcyan;
+		background-color: black;
+		padding: 5px;
+		}
+	input[type=button]:hover{
+		border: thick;
+		background-color: darkred;
+		}
+	input[type=text]:focus{
+		background-color: blueviolet;
+		color: white;
+		width: 100%;
+		transition: 2s;
+	}
+</style>
